@@ -1,0 +1,22 @@
+{
+  "name": "optimal-condition",
+  "version": "1.0.0",
+  "description": "Project 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index",
+    "index": "nodemon backend/index",
+    "client": "npm start --prefix frondend",
+    "dual": "concurrently \"npm run index\"npm run client\""
+  },
+  "author": "lord niceth cuevas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
+}
